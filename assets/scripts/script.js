@@ -29,16 +29,23 @@ const updateURL = () => {
 }
 
 function showSelectedImage() {
-  // const imageSource = document.getElementsByName('imagesrc').textContent
-  // alert(imageSource)
-  // if (imageSource === 'internal') {
-  //   // Get the selected option value
-  const selectedValue = document.getElementById('imageSelect').value
-  document.getElementById('imageCard').src = IMAGE_CARD_URL + selectedValue
-  // } else {
-  //   const selectedValue = document.getElementById('imageurl').value
-  //   document.getElementById('imageCard').src = IMAGE_CARD_URL + selectedValue
-  // }
+  const imageSource = document.getElementsByName('imagesrc')
+
+  let imageSourceVal = ''
+  imageSource.forEach(function (element) {
+    if (element.checked) {
+      imageSourceVal = element.value
+    }
+  })
+
+  if (imageSourceVal === 'internal') {
+    // Get the selected option value
+    const selectedValue = document.getElementById('imageSelect').value
+    document.getElementById('imageCard').src = IMAGE_CARD_URL + selectedValue
+  } else {
+    const selectedValue = document.getElementById('imageurl').value
+    document.getElementById('imageCard').src = selectedValue
+  }
 }
 
 function openCard() {
