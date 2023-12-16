@@ -1,4 +1,4 @@
-# git remote add team9 https://github.com/kpetrauskas92/team9-hackathon-december
+git remote add team9 https://github.com/kpetrauskas92/team9-hackathon-december
 git pull origin team9
 
 # Restore the main
