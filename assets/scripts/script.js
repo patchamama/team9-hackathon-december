@@ -1,4 +1,4 @@
-const PLAYURL = 'play.js'
+const PLAYURL = 'play.html'
 const IMAGE_CARD_URL = 'assets/images/options/'
 const SOUND_CARD_URL = 'assets/sounds/'
 const examplesText = [
@@ -55,6 +55,7 @@ const initCard = () => {
   const randomText =
     examplesText[Math.floor(Math.random() * examplesText.length)]
   document.getElementById('cardText').value = randomText
+  updateURL()
 }
 
 const updateURL = () => {
@@ -79,7 +80,12 @@ const updateURL = () => {
   // Remove the last "&" character
   url = url.slice(0, -1)
 
-  document.getElementById('debugURL').value = url
+  let domainURL = window.location.href.replace('#', '')
+  domainURL = domainURL.split('?')[0]
+
+  url = domainURL + '?' + url
+
+  document.getElementById('shareLink').value = url
   return url
 }
 
@@ -152,7 +158,7 @@ function playSoundSelected() {
     // const selectedValue = document.getElementById('soundurl').value
     // document.getElementById('audioPlayer').src = selectedValue
     const audioPlayer = document.getElementById('audioPlayer')
-    alert(selectedValue)
+    // alert(selectedValue)
     audioPlayer.type = 'audio/mpeg'
     audioPlayer.src = selectedValue
     audioPlayer.load()
@@ -257,4 +263,3 @@ addEventListener('DOMContentLoaded', function () {
 
 initCard()
 updateCardText()
-updateURL()
