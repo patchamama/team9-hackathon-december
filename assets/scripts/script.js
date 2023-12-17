@@ -1,15 +1,25 @@
-const PLAYURL = 'play.js'
+const PLAYURL = 'play.html'
 const IMAGE_CARD_URL = 'assets/images/options/'
 const SOUND_CARD_URL = 'assets/sounds/'
 
+const urlEncode = (data) => {
+  return Object.keys(data)
+    .map(function (key) {
+      return [key, data[key]].map(encodeURIComponent).join('=')
+    })
+    .join('&')
+}
+
 const updateURL = () => {
   let url = `${PLAYURL}?`
+  const urlParamsObject = {}
 
   const elementsInput = document.querySelectorAll('.form-control')
   elementsInput.forEach(function (element) {
     if (element.value !== '' && element.name !== '') {
       // console.log(element.name, '=', element.value)
-      url += `${element.name}=${element.value}&`
+      urlParamsObject[element.name] = element.value
+      // url += `${element.name}=${element.value}&`
     }
   })
 
@@ -17,12 +27,14 @@ const updateURL = () => {
   radioButtons.forEach(function (radioButton) {
     if (radioButton.value !== '' && radioButton.name !== '') {
       // console.log(radioButton.name, '=', radioButton.value)
-      url += `${radioButton.name}=${radioButton.value}&`
+      // url += `${radioButton.name}=${radioButton.value}&`
+      urlParamsObject[radioButton.name] = radioButton.value
     }
   })
 
   // Remove the last "&" character
-  url = url.slice(0, -1)
+  // url = url.slice(0, -1)
+  url += urlEncode(urlParamsObject)
 
   document.getElementById('debugURL').value = url
   return url
