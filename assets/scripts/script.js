@@ -40,6 +40,31 @@ const updateURL = () => {
   return url
 }
 
+function updateTextPosition() {
+  // Get the selected text position
+  var selectedPosition = document.querySelector(
+    'input[name="tpos"]:checked'
+  ).value
+  // Get the text overlay element
+  var textOverlay = document.querySelector('.text-overlay')
+  // Apply new styles based on the selected position
+  switch (selectedPosition) {
+    case 'top':
+      textOverlay.style.position = 'absolute'
+      textOverlay.style.top = '30%'
+      break
+    case 'middle':
+      textOverlay.style.position = 'absolute'
+      textOverlay.style.top = '60%'
+      textOverlay.style.transform = 'translateY(-50%)' // Center vertically
+      break
+    case 'bottom':
+      textOverlay.style.position = 'absolute'
+      textOverlay.style.top = '85%' // You may adjust the default bottom position
+      break
+  }
+}
+
 function showSelectedImage() {
   const imageSource = document.getElementsByName('imagesrc')
 
@@ -185,6 +210,13 @@ addEventListener('DOMContentLoaded', function () {
 
   const soundurl = document.getElementById('soundurl')
   soundurl.addEventListener('change', playSoundSelected)
+
+  const textPosition = document.getElementsByName('tpos')
+  textPosition.forEach(function (element) {
+    element.addEventListener('change', function () {
+      updateTextPosition()
+    })
+  })
 
   const soundSource = document.getElementsByName('soundsrc')
   soundSource.forEach(function (element) {
