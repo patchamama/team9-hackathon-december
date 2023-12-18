@@ -2,7 +2,6 @@
 
 ![nodes4lifeyo](assets/images/images-README.md/nodemas.png)
 
-
 ## Description
 
 <p align="center">
@@ -16,9 +15,8 @@
 # Credits
 
 <p align="center">
-  <strong><a href="https://teman67.github.io/team9-hackathon-december">Click Here</a></strong> to see the deployed website.
+  [Click here to see the deployed website.](https://patchamama.github.io/team9-hackathon-december/)
 </p>
-
 
 ## [Contents](#contents)
 
@@ -52,33 +50,31 @@
 
   - ![Image1]()
 
-
 ### [UX and UI Design](#uxui-design)
 
-  - [UX](#ux)
+- [UX](#ux)
 
-    - Wireframe Mock-ups
+  - Wireframe Mock-ups
 
-      - ![wireframe-draft1.1](assets/images/images-README.md/wireframe-draft1.png)
-      - ![wireframe-draft1.2](assets/images/images-README.md/wireframe-draft2.png)
+    - ![wireframe-draft1.1](assets/images/images-README.md/wireframe-draft1.png)
+    - ![wireframe-draft1.2](assets/images/images-README.md/wireframe-draft2.png)
 
-      - ![wireframe-draft1.1](assets/images/images-README.md/README-draft-mock-up-two.jpg))
+    - ![wireframe-draft1.1](assets/images/images-README.md/README-draft-mock-up-two.jpg))
 
-
-  - [UI](#ui)
-    - ![Image1]()
+- [UI](#ui)
+  - ![Image1]()
 
 ### [Typography](typography)
-- The font used in this project was chosen becuase of it's instantly reconizable and familar feel associated with Christmas.  
 
+- The font used in this project was chosen becuase of it's instantly reconizable and familar feel associated with Christmas.
 
 ### [Color Pallette](color-pallette)
-  
--  The specific color scheme used in this project was selected based on balancing two main criteria. On the one hand, to create a uniquely engaging, appealing, user-friendly interface while simultaneoulsy staying within widely recognized visual themes most associated with Christmas.
 
-   - Color 1
-   - Color 2
-   - Color 3
+- The specific color scheme used in this project was selected based on balancing two main criteria. On the one hand, to create a uniquely engaging, appealing, user-friendly interface while simultaneoulsy staying within widely recognized visual themes most associated with Christmas.
+
+  - Color 1
+  - Color 2
+  - Color 3
 
 ## Getting Started
 
@@ -94,21 +90,21 @@ Before you begin, make sure you have the following installed:
 
 1. **Clone the repository to your local machine:**
 
-    ```bash
-    git clone https://github.com/your-username/team9-hackathon-december.git
-    ```
+   ```bash
+   git clone https://github.com/your-username/team9-hackathon-december.git
+   ```
 
 2. **Navigate to the project directory:**
 
-    ```bash
-    cd team9-hackathon-december
-    ```
+   ```bash
+   cd team9-hackathon-december
+   ```
 
 3. **Install project dependencies using npm:**
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 ## Technologies Used
 
@@ -116,16 +112,11 @@ Before you begin, make sure you have the following installed:
 - [JQuery](https://jquery.com/): Enhances the interactivity and dynamic features.
 - [Fontawesome](https://fontawesome.com/): Provides a collection of scalable vector icons.
 
-
-
-
-
 ## [Credits](#credits)
 
 ### The North Pole Nodes
-    
-![Team Logo](assets/images/images-README.md/team-nodes.jpg)
 
+![Team Logo](assets/images/images-README.md/team-nodes.jpg)
 
 &#x2744; [Amirhossein](https://www.linkedin.com/in/pkarolisdev/)
 
@@ -138,6 +129,5 @@ Before you begin, make sure you have the following installed:
 &#x2744; [Taher](https://www.linkedin.com/in/taher-m/)
 
 &#x2744; Also see the **[About us](https://teman67.github.io/team9-hackathon-december/about-us.html)** page.
-
 
 **Click Here to go back to [Contents](#contents)**
