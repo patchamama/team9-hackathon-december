@@ -10,6 +10,8 @@ The Merry Hackmas Card Creator is a project that allows users to generate person
   <img src="assets/images/images-README.md/santa-envelope.jpg" alt="Santa with Gifts">
 </p>
 
+[Youtube Presentation video](https://www.youtube.com/watch?v=G3IG1S4yZE4)
+
 [Click here to see the deployed website](https://patchamama.github.io/team9-hackathon-december/)
 
 ## [Contents](#contents)
