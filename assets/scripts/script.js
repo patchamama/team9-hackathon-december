@@ -49,10 +49,11 @@ const initCard = () => {
   // Add a random background image from the "assets" folder
   const posImage = Math.floor(Math.random() * examplesImages.length)
   const randomImage = examplesImages[posImage]
-  // alert(document.getElementById('imageSelect').selectedValue)
-  // document.getElementById('imageSelect').selectedValue = posImage
+  const selectElement = document.getElementById('imageSelect')
+  selectElement.selectedIndex = posImage
+  showSelectedImage()
+  // document.getElementById('imageCard').src = IMAGE_CARD_URL + randomImage
 
-  document.getElementById('imageCard').src = IMAGE_CARD_URL + randomImage
   // Add a random text from the "examplesText" array
   const randomText =
     examplesText[Math.floor(Math.random() * examplesText.length)]
