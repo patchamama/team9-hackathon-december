@@ -4,19 +4,13 @@
 
 ## Description
 
-<p align="center">
-  The Merry Hackmas Card Creator is a project that allows users to generate personalized Christmas cards with customizable features, including the recipients name and choosing a variety of images and audio.
-</P>
+The Merry Hackmas Card Creator is a project that allows users to generate personalized Christmas cards with customizable features, including the recipients name and choosing a variety of images and audio.
 
 <p align="center">
   <img src="assets/images/images-README.md/santa-envelope.jpg" alt="Santa with Gifts">
 </p>
 
-# Credits
-
-<p align="center">
-  [Click here to see the deployed website.](https://patchamama.github.io/team9-hackathon-december/)
-</p>
+[Click here to see the deployed website](https://patchamama.github.io/team9-hackathon-december/)
 
 ## [Contents](#contents)
 
@@ -58,25 +52,11 @@
 
     - ![wireframe-draft1.1](assets/images/images-README.md/wireframe-draft1.png)
     - ![wireframe-draft1.2](assets/images/images-README.md/wireframe-draft2.png)
-
     - ![wireframe-draft1.1](assets/images/images-README.md/README-draft-mock-up-two.jpg))
-
-- [UI](#ui)
-  - ![Image1]()
 
 ### [Typography](typography)
 
-- The font used in this project was chosen becuase of it's instantly reconizable and familar feel associated with Christmas.
-
-### [Color Pallette](color-pallette)
-
-- The specific color scheme used in this project was selected based on balancing two main criteria. On the one hand, to create a uniquely engaging, appealing, user-friendly interface while simultaneoulsy staying within widely recognized visual themes most associated with Christmas.
-
-  - Color 1
-  - Color 2
-  - Color 3
-
-## Getting Started
+- The font used in this project was chosen because of it's instantly reconizable and familar feel associated with Christmas.
 
 ### Prerequisites
 
@@ -104,6 +84,8 @@ Before you begin, make sure you have the following installed:
 
    ```bash
    npm install
+   npm run dev
+   open localhost:3000
    ```
 
 ## Technologies Used
@@ -128,6 +110,6 @@ Before you begin, make sure you have the following installed:
 
 &#x2744; [Taher](https://www.linkedin.com/in/taher-m/)
 
-&#x2744; Also see the **[About us](https://teman67.github.io/team9-hackathon-december/about-us.html)** page.
+&#x2744; Also see the **[About us](https://patchamama.github.io/team9-hackathon-december/about-us.html)** page.
 
 **Click Here to go back to [Contents](#contents)**
