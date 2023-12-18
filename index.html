@@ -367,11 +367,22 @@ Enter your text...
                 class="btn btn-outline-light btn-floating m-1"
                 role="button"
                 href="#"
+                onclick="preview()"
+                aria-label="Preview Card"
+              >
+                <i class="fa-solid fa-display"></i>
+              </a>
+
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                role="button"
+                href="#"
                 onclick="copyLink('https://team9hackathon.com/interactive-card')"
                 aria-label="Copy Link to Share"
               >
                 <i class="fa-solid fa-link"> </i>
               </a>
+
               <p>Shareable URL:</p>
               <input class="" type="text" id="shareLink" readonly />
             </section>
@@ -400,7 +411,7 @@ Enter your text...
     <script>
       function copyLink(link) {
         var copyText = document.getElementById('shareLink')
-        copyText.value = link
+        //copyText.value = link
 
         /* Select the text field */
         copyText.select()
@@ -411,6 +422,11 @@ Enter your text...
 
         /* Alert the copied text */
         alert('Copied the link to share: ' + copyText.value)
+      }
+
+      function preview() {
+        var copyText = document.getElementById('shareLink')
+        window.open(copyText.value, '_blank')
       }
     </script>
 
