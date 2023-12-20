@@ -304,7 +304,3 @@ Below is a full list of colors used and their usage:
 &#x2744; [Sam](https://www.linkedin.com/in/sam-o-brien-olinger-b658283a/)
 
 &#x2744; [Taher](https://www.linkedin.com/in/taher-m/)
-
-<p align="center">
-  **Click Here to go back to [Contents](#contents)**
-</P>
