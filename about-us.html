@@ -1,53 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+    >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+                rel="stylesheet"
+                integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+                crossorigin="anonymous"
+    >
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
 
-    <script
-      src="https://kit.fontawesome.com/0199d382d0.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/0199d382d0.js" crossorigin="anonymous"></script>
 
     <!-- Link to the external CSS file -->
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/styles.css">
     <script src="assets/scripts/pure-snow.js" defer></script>
     <title>The North Pole Nodes</title>
-  </head>
+</head>
 
-  <body>
+<body>
+
     <div id="snow" data-count="200"></div>
 
     <!-- Nav section -->
-    <nav class="nav-container py-2 px-5">
-      <a href="index.html" class="nav-link text-uppercase">
-        <i class="fa-solid fa-gift me-1"></i>Home</a
-      >
+    <nav class="nav-container py-2 px-4">
+        <div class="d-flex">
+          <a href="index.html" class="nav-link">
+            <i class="fa-solid fa-gift me-1"></i>
+          </a>
+          <a href="index.html" class="nav-link text-uppercase d-none d-md-block">
+            Home
+          </a>
+        </div>
+      
+        <a href="index.html" class="nav-logo">
 
-      <a href="index.html" class="nav-logo">
-        <img src="assets/images/logo/logo.png" alt="Logo" class="logo" />
-      </a>
-      <a href="about-us.html" class="nav-link text-uppercase">
-        <i class="fa-solid fa-square-caret-left me-1"></i>Back</a
-      >
+            <img src="assets/images/logo/logo.png" alt="Logo" class="logo">
+        </a>
+    
+        <a href="index.html" class="nav-link">Back</a>
     </nav>
+
+
+    <div class="row pt-2 px-5 text-center">
+      <div class="col-12 py-4">
+        <h1>Meet the North Pole Nodes!</h1>
+      </div>
+    
+      <div class="col-md-2" id="amir">
+        <a href="https://www.linkedin.com/in/amirhosseinbayani/">
+          <img src="assets/images/images-about-us/Amir.jpg" alt="Amir's Image" class="img-fluid">
+        </a>
+      </div>
+    
+      <div class="col-md-2" id="armando">
+        <a href="https://www.linkedin.com/in/armandourquiola/">
+          <img src="assets/images/images-about-us/Armando.jpg" alt="Armando's Image" class="img-fluid">
+        </a>
+      </div>
+    
+      <div class="col-md-2" id="karolis">
+        <a href="https://www.linkedin.com/in/pkarolisdev/">  
+          <img src="assets/images/images-about-us/Kar.jpg" alt="Karolis's Image" class="img-fluid">
+        </a>
+      </div>
+    
+      <div class="col-md-2" id="sam">
+        <a href="https://www.linkedin.com/in/sam-o-brien-olinger-b658283a/">
+          <img src="assets/images/images-about-us/Sam.jpg" alt="Sam's Image" class="img-fluid">
+        </a>
+      </div>
+    
+      <div class="col-md-2" id="taher">
+        <a href="https://www.linkedin.com/in/taher-m/">
+          <img src="assets/images/images-README.md/taher.jpeg" alt="Taher's Image" class="img-fluid">
+        </a>
+      </div>
+    </div>    
+    
+          <img src="assets/images/logo/logov3.png" alt="Logo" class="logo" />
+        </a>
+        <div class="d-flex">
+          <a href="index.html" class="nav-link">
+            <i class="fa-solid fa-sleigh me-1"></i>
+          </a>
+          <a href="index.html" class="nav-link text-uppercase d-none d-md-block">
+            Back
+          </a>
+        </div>
+      </nav>
 
     <ul id="wire">
       <li></li>
@@ -86,106 +132,101 @@
       <li></li>
       <li></li>
       <li></li>
-    </ul>
+  </ul>
 
     <div class="container main-container my-auto">
       <div class="row text-center">
-        <div class="col-12 py-4">
-          <h1>Meet the North Pole Nodes!</h1>
-        </div>
-
-        <!-- Top row: -->
-
-        <div class="col-lg-4 col-md-6 col-sm-12" id="amir">
-          <a href="https://www.linkedin.com/in/amirhosseinbayani/">
-            <img
-              src="assets/images/images-about-us/v2/amir.jpg"
-              alt="Amir's Image"
-              class="img-fluid rounded-circle avatar"
-            />
-          </a>
-          <p class="about-card-text customize-button w-100">
-            Amirhossein
-            <a
-              href="https://www.linkedin.com/in/amirhosseinbayani/"
-              class="icon-link"
-            >
-              <i class="fab fa-linkedin"></i>
+          <div class="col-12 py-4">
+              <h1>Meet the North Pole Nodes!</h1>
+          </div>
+  
+          <!-- Top row: -->
+          
+          <div class=" col-md-6 col-sm-12" id="amir">
+            <a href="https://www.linkedin.com/in/amirhosseinbayani/">
+                <img src="assets/images/images-about-us/v2/amir.jpg" alt="Amir's Image" class="img-fluid rounded-circle avatar">
             </a>
-            <a href="" class="icon-link">
-              <i class="fab fa-github"></i>
+            <p class="about-card-text customize-button w-100">
+                Amirhossein
+                <a href="https://www.linkedin.com/in/amirhosseinbayani/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/teman67">
+                    <i class="fab fa-github"></i>
+                </a>
+            </p>
+        </div>
+
+          <div class=" col-md-6 col-sm-12" id="armando">
+              <a href="https://www.linkedin.com/in/armandourquiola/">
+                  <img src="assets/images/images-about-us/v2/armando.jpg" alt="Armando's Image" class="img-fluid rounded-circle avatar">
+              </a>
+              <p class="about-card-text customize-button w-100">Armando
+                <a href="https://www.linkedin.com/in/armandourquiola/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/patchamama">
+                    <i class="fab fa-github"></i>
+                </a>
+              </p>
+          </div>
+          <div class=" col-md-6 col-sm-12" id="karolis">
+              <a href="https://www.linkedin.com/in/pkarolisdev/">  
+                  <img src="assets/images/images-about-us/v2/karolis.jpg" alt="Karolis's Image" class="img-fluid rounded-circle avatar">
+              </a>
+              <p class="about-card-text customize-button w-100">Karolis
+                <a href="https://www.linkedin.com/in/pkarolisdev/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/kpetrauskas92">
+                    <i class="fab fa-github"></i>
+                </a>
+              </p>
+          </div>
+  
+          <!-- Bottom row: -->
+          <div class=" col-md-6 col-sm-12" id="sam">
+              <a href="https://www.linkedin.com/in/sam-o-brien-olinger-b658283a/">
+                  <img src="assets/images/images-about-us/v2/sam.jpg" alt="Sam's Image" class="img-fluid rounded-circle avatar">
+              </a>
+              <p class="about-card-text customize-button w-100">Sam
+                <a href="https://www.linkedin.com/in/sam-o-brien-olinger-b658283a/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/SamOBrienOlinger">
+                    <i class="fab fa-github"></i>
+                </a>
+              </p>
+          </div>
+          <div class=" col-md-6 col-sm-12" id="taher">
+            <a href="https://www.linkedin.com/in/taher-m/">
+                <img src="assets/images/images-about-us/v2/taher.jpg" alt="Taher's Image" class="img-fluid rounded-circle avatar">
             </a>
-          </p>
+            <p class="about-card-text customize-button w-100">Taher
+                <a href="https://www.linkedin.com/in/taher-m/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/TaherCCG">
+                    <i class="fab fa-github"></i>
+                </a>
+            </p>
         </div>
+        <div class="d-none d-lg-block col-md-6 col-sm-12" id="santa">
+            <img src="assets/images/images-about-us/v2/santa.png" alt="santa" class="img-fluid img-fluid rounded-circle avatar">
+        <p class="about-card-text customize-button w-100">Santa</p>
 
-        <div class="col-lg-4 col-md-6 col-sm-12" id="armando">
-          <a href="https://www.linkedin.com/in/armandourquiola/">
-            <img
-              src="assets/images/images-about-us/v2/armando.jpg"
-              alt="Armando's Image"
-              class="img-fluid rounded-circle avatar"
-            />
-          </a>
-          <p class="about-card-text customize-button w-100">Armando</p>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12" id="karolis">
-          <a href="https://www.linkedin.com/in/pkarolisdev/">
-            <img
-              src="assets/images/images-about-us/v2/karolis.jpg"
-              alt="Karolis's Image"
-              class="img-fluid rounded-circle avatar"
-            />
-          </a>
-          <p class="about-card-text customize-button w-100">Karolis</p>
-        </div>
-
-        <!-- Bottom row: -->
-        <div class="col-lg-4 col-md-6 col-sm-12" id="sam">
-          <a href="https://www.linkedin.com/in/sam-o-brien-olinger-b658283a/">
-            <img
-              src="assets/images/images-about-us/v2/sam.jpg"
-              alt="Sam's Image"
-              class="img-fluid rounded-circle avatar"
-            />
-          </a>
-          <p class="about-card-text customize-button w-100">Sam</p>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12" id="taher">
-          <a href="https://www.linkedin.com/in/taher-m/">
-            <img
-              src="assets/images/images-about-us/santa.png"
-              alt="santa"
-              class="img-fluid"
-            />
-          </a>
-          <p class="about-card-text customize-button w-100">Santa</p>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12" id="taher">
-          <a href="https://www.linkedin.com/in/taher-m/">
-            <img
-              src="assets/images/images-about-us/v2/taher.jpg"
-              alt="Taher's Image"
-              class="img-fluid rounded-circle avatar"
-            />
-          </a>
-          <p class="about-card-text customize-button w-100">Taher</p>
-        </div>
-      </div>
     </div>
-
-    <footer
-      class="text-center text-lg-start text-white"
-      style="background-color: #980505"
-    >
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2023 Copyright:
-        <a
-          class="text-white"
-          href="https://github.com/kpetrauskas92/team9-hackathon-december"
-          >The North Pole Nodes</a
-        >
       </div>
+  </div>
+  
+
+    <footer class="text-center text-lg-start text-white" style="background-color: #980505">
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2023 Copyright:
+                <a class="text-white" href="https://github.com/kpetrauskas92/team9-hackathon-december">The North Pole Nodes</a>
+        </div>
     </footer>
-  </body>
+</body>
 </html>
